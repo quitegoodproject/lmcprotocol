@@ -1,0 +1,12 @@
+name: lmcprotocol
+version: 1.0.0
+description: Sub-Second Local Business Telemetry & Flaw Diagnostics in ~210 Tokens for AI Agents (OBDS-2026).
+repository: https://github.com/quitegoodproject/lmcprotocol
+homepage: https://lmcprotocol.com
+command: npx
+args:
+  - -y
+  - lmcprotocol
+tools:
+  - name: lmcp_search
+    description: Search local entities and audit marketing flaws in sub-second edge sockets.

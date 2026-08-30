@@ -1,0 +1,31 @@
+{
+  "name": "lmcprotocol",
+  "version": "1.0.4",
+  "description": "Sub-Second Local Business Telemetry & Flaw Diagnostics in ~210 Tokens for AI Agents. Reference Implementation of LMCP-1.0 & OBDS-2026.",
+  "main": "bin/cli.js",
+  "type": "module",
+  "bin": {
+    "lmcprotocol": "./bin/cli.js",
+    "lmcp": "./bin/cli.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "lmcprotocol",
+    "local-telemetry",
+    "flaw-diagnostics",
+    "ai-sdr",
+    "obds-2026",
+    "quitegoodproject"
+  ],
+  "author": "The Quite Good Project <engineering@quitegoodproject.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/quitegoodproject/lmcprotocol"
+  },
+  "homepage": "https://lmcprotocol.com",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.6.0"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "lmcprotocol",
+  "version": "1.0.0",
+  "description": "Sub-Second Local Business Telemetry & Flaw Diagnostics in ~210 Tokens for AI Agents (OBDS-2026).",
+  "author": "Quite Good Project",
+  "homepage": "https://lmcprotocol.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/quitegoodproject/lmcprotocol.git"
+  },
+  "tools": [
+    {
+      "name": "lmcp_search",
+      "desc": "Search local entities and audit marketing flaws in sub-second edge sockets."
+    }
+  ]
+}

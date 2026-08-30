@@ -1,0 +1,21 @@
+{
+  "$schema": "https://glama.ai/mcp/schema.json",
+  "name": "lmcprotocol",
+  "description": "Sub-Second Local Business Telemetry & Flaw Diagnostics in ~210 Tokens for AI Agents (OBDS-2026).",
+  "homepage": "https://lmcprotocol.com",
+  "repository": "https://github.com/quitegoodproject/lmcprotocol",
+  "transport": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "lmcprotocol"
+    ]
+  },
+  "tags": [
+    "mcp",
+    "ai-agents",
+    "developer-primitives",
+    "quitegoodproject"
+  ]
+}
