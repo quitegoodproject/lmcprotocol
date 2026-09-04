@@ -1,12 +1,12 @@
 {
-  "name": "lmcprotocol",
-  "version": "1.0.4",
+  "name": "@quitegoodproject/lmcprotocol",
+  "version": "1.0.0",
   "description": "Sub-Second Local Business Telemetry & Flaw Diagnostics in ~210 Tokens for AI Agents. Reference Implementation of LMCP-1.0 & OBDS-2026.",
   "main": "bin/cli.js",
   "type": "module",
   "bin": {
-    "lmcprotocol": "./bin/cli.js",
-    "lmcp": "./bin/cli.js"
+    "lmcprotocol": "bin/cli.js",
+    "lmcp": "bin/cli.js"
   },
   "keywords": [
     "mcp",
@@ -22,10 +22,13 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/quitegoodproject/lmcprotocol"
+    "url": "git+https://github.com/quitegoodproject/lmcprotocol.git"
   },
-  "homepage": "https://lmcprotocol.com",
+  "homepage": "https://quitegoodproject.com",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.6.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
