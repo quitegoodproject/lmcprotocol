@@ -1,12 +1,20 @@
 name: lmcprotocol
-version: 1.0.0
+displayName: LMCProtocol
 description: Sub-Second Local Business Telemetry & Flaw Diagnostics in ~210 Tokens for AI Agents (OBDS-2026).
-repository: https://github.com/quitegoodproject/lmcprotocol
+version: 1.0.0
 homepage: https://lmcprotocol.com
-command: npx
-args:
-  - -y
-  - lmcprotocol
-tools:
-  - name: lmcp_search
-    description: Search local entities and audit marketing flaws in sub-second edge sockets.
+repository: https://github.com/quitegoodproject/lmcprotocol
+license: MIT
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    properties:
+      apiKey:
+        type: string
+        description: LMCProtocol API Key (optional for free tier)
+  commandFunction:
+    name: npx
+    args:
+      - -y
+      - "@quitegoodproject/lmcprotocol"
