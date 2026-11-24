@@ -20,18 +20,23 @@
 ## 🚀 Quickstart
 
 ### Claude Desktop & Cursor (`claude_desktop_config.json`)
+
+> 🎁 **Free Sandbox Bonus**: Pass `--email you@company.com` in `args` to instantly double your free sandbox quota from 50 to **100 searches**! Zero credit card required.
+
 ```json
 {
   "mcpServers": {
     "lmcprotocol": {
       "command": "npx",
-      "args": ["-y", "lmcprotocol"],
-      "env": {
-        "LMCP_API_KEY": "<LMCP_API_KEY>"
-      }
+      "args": ["-y", "@quitegoodproject/lmcprotocol", "--email", "you@company.com"]
     }
   }
 }
+```
+
+Or run via CLI:
+```bash
+npx -y @quitegoodproject/lmcprotocol --email you@company.com
 ```
 
 ---
